@@ -19,7 +19,21 @@
 
   <style>
     .custom {
-      
+      font-size: 1rem;
+      line-height: 1.5;
+      display: inline-block;
+    }
+
+    .custom:after {
+      content: '\e61e';
+      color: #07428f;
+      font-family: jnj-ado;
+      position: absolute;
+      right: 15px;
+    }
+
+    .custom.collapsed:after {
+      content: '\e60e';
     }
   </style>
 </head>
